@@ -37,7 +37,7 @@ namespace AddressBook
                             + "\n" + contacts.PhoneNumber
                             + "\n" + contacts.Email);
             AddressBook.Add(contacts);
-            Console.WriteLine("{0}'s Contact Successfully Added", contacts.FirstName);
+            Console.WriteLine("New Contact Successfully Added "+ contacts.FirstName + contacts.LastName);
         }
     }
 }
