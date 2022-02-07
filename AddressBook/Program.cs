@@ -9,7 +9,8 @@ while (var)
 Console.WriteLine("Select the operation from following..\n "
     + "Enter 1 for Adding a new contact\n "
     + "Enter 2 for editing an existing contact\n "
-    + "Enter 3 for deleting an existing contact");
+    + "Enter 3 for deleting an existing contact\n "
+    + "Enter 0 to exit the program ");
     int option = Convert.ToInt32(Console.ReadLine());
     switch (option)
     {
@@ -28,7 +29,6 @@ Console.WriteLine("Select the operation from following..\n "
             break ;
         default:
             var=false;
-            Console.WriteLine("Enter Correct Option...");
             break;
     }
 }
